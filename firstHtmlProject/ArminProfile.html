@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Armin Profile</title>
+    <style>
+        #logo{
+         /* this is ID in css; Only one*/
+            width: 60px;
+            height: 60px;
+        }
+        #logo, #site-title{
+            display: inline-block;
+        }
+        .red-text{
+            /* this is CLASS in css; May have multiple elements*/
+        }
+
+        .inline-children > div{
+            display: inline-block;
+
+        }
+        .niceDesignForDiv {
+            display: inline-block;
+            border: 2px solid red;
+            margin: 4px;
+            padding:10px;
+            background: slateblue;
+        }
+
+    </style>
+</head>
+<body >
+
+    <header>
+        <img id= "logo" class="red-text" src="images/logo.png"  alt= "Logo not found"/>
+        <h1 id="site-title">This is our WebSite</h1>
+    </header>
+    <main>
+
+        <div>
+            <img src="https://i.pinimg.com/originals/df/e0/f8/dfe0f8f67462bc006e1a96f8ea4d9c2f.jpg"
+                 alt="Cannot find image"/>
+        </div>
+        <p style="font-size: 20px; color: blueviolet"; >
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+            sladjsadjk lsalsal sajjaj sajjkselel aksakdksa dasköl dlaskldk
+        </p>
+        <div>
+            <h3>List of skills</h3>
+            <ul style="list-style-type:square">
+                <li>Running</li>
+                <li>Jumping</li>
+                <li>Singing</li>
+                <li>Reading</li>
+                <li>Jumping</li>
+                <li>Sleeping</li>
+            </ul>
+        </div>
+        <div>
+            <h3>List of Super Powers</h3>
+
+            <ol type="1" start="1">
+            <li>Walking</li>
+                <li>Coding</li>
+                <li>Restarting laptops</li>
+                <li>Breathing fire</li>
+            </oltype>
+        </div>
+        <div>
+            <table>
+                <thead>
+                <th>Order</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>James Bond 007</td>
+                    <td>James Bond kills all villans</td>
+                    <td>17.01.2006</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Indiana Jones</td>
+                    <td>Temple of Doom</td>
+                    <td>02.04.2012</td>
+                </tr>
+
+
+                </tbody>
+            </table>
+
+        </div>
+        <div class= "inline=children">
+            <div class="niceDesignForDiv">
+                <img class="red-text" src="images/logo.png"  alt= "Logo not found"/>
+                Div1
+            </div>
+            <div class="niceDesignForDiv">
+                <img class="red-text" src="images/logo.png"  alt= "Logo not found"/>
+                Div2
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
